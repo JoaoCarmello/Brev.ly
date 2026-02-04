@@ -74,3 +74,4 @@ O backend foi desenvolvido de forma independente do frontend.
 O frontend será documentado separadamente em outro README.
 
 A aplicação segue os requisitos definidos no desafio.
+
