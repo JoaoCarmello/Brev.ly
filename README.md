@@ -68,30 +68,36 @@ brevly/
 ```
 ⚙️ Configuração do Ambiente
 Backend (/server/.env)
-Snippet de código
+```txt
 DATABASE_URL=postgresql://user:password@localhost:5432/brevly
 CLOUDFLARE_ACCOUNT_ID=
 CLOUDFLARE_ACCESS_KEY_ID=
 CLOUDFLARE_SECRET_ACCESS_KEY_ID=
 CLOUDFLARE_BUCKET=
 CLOUDFLARE_PUBLIC_URL=
+```
 Frontend (/web/.env)
-Snippet de código
+```txt
 VITE_BACKEND_URL=http://localhost:3333
 VITE_FRONTEND_URL=http://localhost:5173
+```
 ▶️ Como Executar
 1. Backend
+```txt
 Bash
 cd server
 docker-compose up -d
 npm install
 npx drizzle-kit migrate
 npm run dev
+```
 2. Frontend
+```txt
 Bash
 cd web
 npm install
 npm run dev
+```
 👨‍💻 Autor
 Desenvolvido por Matheus Carmello.
 
