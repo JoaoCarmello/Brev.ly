@@ -65,6 +65,7 @@ brevly/
 │   │   └── services/    # Integração com a API
 │   └── vite.config.ts
 └── docs/                # Ativos de documentação
+```
 ⚙️ Configuração do Ambiente
 Backend (/server/.env)
 Snippet de código
@@ -93,3 +94,4 @@ npm install
 npm run dev
 👨‍💻 Autor
 Desenvolvido por Matheus Carmello.
+
