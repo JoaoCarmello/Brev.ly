@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🔗 Brev.ly — Backend
 
 Backend da aplicação **Brev.ly**, um encurtador de links desenvolvido como projeto acadêmico FullStack.  
@@ -104,7 +103,7 @@ Frontend (/web) → Interface do usuário
 🖼️ Demonstração
 Interface da aplicação
 
-![alt text](image.png)
+<img width="968" height="924" alt="image" src="https://github.com/user-attachments/assets/a320cd57-90f0-47ac-879a-fccbb458177d" />
 
 
 🚀 Funcionalidades
@@ -270,4 +269,3 @@ Projeto pensado para escala, clareza e manutenção
 👨‍💻 Autor
 
 Desenvolvido por Matheus Carmello
->>>>>>> e03bb8f (commit frontend)
