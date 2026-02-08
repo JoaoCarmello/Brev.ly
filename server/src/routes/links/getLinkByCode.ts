@@ -4,7 +4,7 @@ import { uploads } from '../../db/schemas';
 import { eq } from 'drizzle-orm';
 
 export const getLinkByCodeRoute = async (server: FastifyInstance) => {
-  server.get('/links/:shortCode', async (request, reply) => {
+  server.get('/:shortCode', async (request, reply) => {
     try {
       const { shortCode } = request.params as { shortCode: string };
 

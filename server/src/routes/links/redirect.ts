@@ -4,7 +4,7 @@ import { uploads } from '../../db/schemas';
 import { eq, sql } from 'drizzle-orm';
 
 export const redirectRoute = async (server: FastifyInstance) => {
-  server.get('/:shortCode', async (request, reply) => {
+  server.get('/links/:shortCode', async (request, reply) => {
     try {
       const { shortCode } = request.params as { shortCode: string };
 
